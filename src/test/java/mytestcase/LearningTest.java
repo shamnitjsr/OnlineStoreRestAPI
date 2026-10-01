@@ -27,7 +27,7 @@ public class LearningTest {
 //	public void testGetCoursesById() {
 //		
 //		given()
-//			.pathParam("id", 13)
+//			.pathParam("id", 8)
 //		.when()
 //			.get("https://lebyy.com/practice/api/courses/{id}")
 //		.then() 
@@ -40,12 +40,12 @@ public class LearningTest {
 //	public void testCreateCoursesUsingHashMap() {
 //		
 //		HashMap<String, Object> requestBody = new HashMap<>();
-//		requestBody.put("title","Machine Learning");
-//		requestBody.put("category","AI Learning");
-//		requestBody.put("level", "Advanced");
-//		requestBody.put("price", 160.90);
-//		requestBody.put("language", "English");
-//		requestBody.put("active", true);
+//		requestBody.put("title","Data Engineering");
+//		requestBody.put("category","Data Sceince");
+//		requestBody.put("level", "Advanced to Expert");
+//		requestBody.put("price", 20000.90);
+//		requestBody.put("language", "International Language");
+//		requestBody.put("active", false);
 //		
 //		given()
 //			.header("Content-Type", "application/json")
@@ -65,7 +65,7 @@ public class LearningTest {
 //		requestBody.put("title","Space Technology");
 //		requestBody.put("category","AI Learning");
 //		requestBody.put("level", "Advanced");
-//		requestBody.put("price", 500.90);
+//		requestBody.put("price", 90000);
 //		requestBody.put("language", "English");
 //		requestBody.put("active", true);
 //		
@@ -110,13 +110,14 @@ public class LearningTest {
 //	public void testCreateCoursesUsingExternalFile() throws FileNotFoundException {
 //		
 //		File file = new File("C:\\Users\\SHAMBHU\\Downloads\\OnlineStoreFakeRestAPI\\OnlineStoreFakeRestAPI\\src\\test\\java\\mytestcase\\course.json");
-//		FileReader fileReader = new FileReader(file);
-//		JSONTokener jsonTokener = new JSONTokener(fileReader);
-//		JSONObject requestBody = new JSONObject(jsonTokener);
+////		FileReader fileReader = new FileReader(file);
+////		JSONTokener jsonTokener = new JSONTokener(fileReader);
+////		JSONObject requestBody = new JSONObject(jsonTokener);
 //		
 //		String id = given()
 //			.header("Content-Type", "application/json")
-//			.body(requestBody.toString())
+////			.body(requestBody.toString())
+//			.body(file)
 //		.when()
 //			.post("https://lebyy.com/practice/api/courses")
 //		.then() 
@@ -138,7 +139,7 @@ public class LearningTest {
 //		
 //		String id = given()
 //			.header("Content-Type", "application/json")
-//			.pathParam("id", 13)
+//			.pathParam("id", 18)
 //			.body(requestBody.toString())
 //		.when()
 //			.put("https://lebyy.com/practice/api/courses/{id}")
@@ -161,7 +162,7 @@ public class LearningTest {
 //		
 //		given()
 //			.header("Content-Type", "application/json")
-//			.pathParam("id", 13)
+//			.pathParam("id", 18)
 //			.body(requestBody)
 //		.when()
 //			.patch("https://lebyy.com/practice/api/courses/{id}")
@@ -171,17 +172,17 @@ public class LearningTest {
 //		
 //	}
 	
-	@Test(priority = 2)
-	public void testDeleteCoursesById() {
-		
-		given()
-			.pathParam("id", 9)
-		.when()
-			.delete("https://lebyy.com/practice/api/courses/{id}")
-		.then() 
-			.log().body()
-			.statusCode(200);
-		
-	}
+//	@Test(priority = 2)
+//	public void testDeleteCoursesById() {
+//		
+//		given()
+//			.pathParam("id", 18)
+//		.when()
+//			.delete("https://lebyy.com/practice/api/courses/{id}")
+//		.then() 
+//			.log().body()
+//			.statusCode(200);
+//		
+//	}
 
 }

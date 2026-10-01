@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="mytestcase.LearningTest">
+      <class name="mytestcase.LearingChainingAPITest">
         <methods>
-          <include name="testDeleteCoursesById"/>
+          <include name="testGetCoursesById"/>
         </methods>
-      </class> <!-- mytestcase.LearningTest -->
+      </class> <!-- mytestcase.LearingChainingAPITest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
