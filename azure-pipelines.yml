@@ -1,0 +1,80 @@
+# Azure Pipelines version of the Jenkins pipeline for OnlineStoreRestAPI
+# Save this file as "azure-pipelines.yml" in the ROOT of the repository.
+
+trigger:
+  branches:
+    include:
+      - main
+
+pr: none
+
+pool:
+  vmImage: 'windows-latest'
+
+variables:
+  MAVEN_OPTS: '-Dfile.encoding=UTF-8'
+  project.build.sourceEncoding: 'UTF-8'
+
+jobs:
+  - job: BuildAndTest
+    displayName: 'Build and Run Tests'
+    timeoutInMinutes: 30          # same as Jenkins timeout(30 MINUTES)
+
+    steps:
+      # ---------- Checkout ----------
+      - checkout: self
+        displayName: 'Checkout Rest Assured project from GitHub'
+        clean: true
+
+      # ---------- Tools (jdk 'MyJava' / maven 'MyMaven') ----------
+      - task: JavaToolInstaller@0
+        displayName: 'Set up JDK 11'
+        inputs:
+          versionSpec: '11'
+          jdkArchitectureOption: 'x64'
+          jdkSourceOption: 'PreInstalled'
+
+      # ---------- Build ----------
+      - script: |
+          echo Building Maven project...
+          java -version
+          mvn -version
+          mvn -B clean compile
+        displayName: 'Build'
+
+      # ---------- Test ----------
+      - script: |
+          echo Executing Rest Assured API automation tests...
+          mvn -B test
+        displayName: 'Test'
+
+      # ---------- Report (runs even if tests fail) ----------
+      - task: PublishTestResults@2
+        displayName: 'Publish API automation test results'
+        condition: succeededOrFailed()
+        inputs:
+          testResultsFormat: 'JUnit'
+          testResultsFiles: '**/target/surefire-reports/TEST-*.xml'
+          failTaskOnFailedTests: true
+          failTaskOnMissingResultsFile: true
+
+      - task: PublishPipelineArtifact@1
+        displayName: 'Archive surefire reports'
+        condition: succeededOrFailed()
+        inputs:
+          targetPath: '$(System.DefaultWorkingDirectory)/target/surefire-reports'
+          artifact: 'surefire-reports'
+          publishLocation: 'pipeline'
+
+      # ---------- Post actions ----------
+      - script: echo API automation execution completed successfully.
+        displayName: 'Post success'
+        condition: succeeded()
+
+      - script: echo API automation execution FAILED. Check the Test and Report steps.
+        displayName: 'Post failure'
+        condition: failed()
+
+      - script: echo Azure API automation pipeline execution completed.
+        displayName: 'Post always'
+        condition: always()
