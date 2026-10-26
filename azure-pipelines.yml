@@ -9,7 +9,7 @@ trigger:
 pr: none
 
 pool:
-  vmImage: 'windows-latest'
+  	name: 'Default'
 
 variables:
   MAVEN_OPTS: '-Dfile.encoding=UTF-8'
