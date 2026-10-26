@@ -6,6 +6,7 @@ pojo\CartProduct.class
 pojo\User.class
 testcases\BaseClass.class
 testcases\LoginTests.class
+mytestcase\CoursePOJO.class
 utils\DataProviders.class
 payloads\Payload.class
 pojo\Login.class

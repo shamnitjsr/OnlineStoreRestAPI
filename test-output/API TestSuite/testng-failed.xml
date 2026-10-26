@@ -8,8 +8,8 @@
     <classes>
       <class name="testcases.UserTests">
         <methods>
-          <include name="testDeleteUser"/>
           <include name="testGetUsersSorted"/>
+          <include name="testDeleteUser"/>
           <include name="testGetUsersSortedAsc"/>
           <include name="testGetAllUsers"/>
           <include name="testCreateUser"/>
@@ -29,15 +29,57 @@
           <include name="testAddNewProduct"/>
           <include name="testGetProductsByCategory"/>
           <include name="testDeleteProduct"/>
-          <include name="testUpdateProduct"/>
           <include name="testGetLimitedProducts"/>
-          <include name="testGetSortedProductsAsc"/>
-          <include name="testGetSortedProducts"/>
+          <include name="testUpdateProduct"/>
           <include name="testGetAllCategories"/>
+          <include name="testGetSortedProducts"/>
+          <include name="testGetSortedProductsAsc"/>
           <include name="testGetAllProducts"/>
           <include name="setup"/>
         </methods>
       </class> <!-- testcases.ProductTests -->
     </classes>
   </test> <!-- Product Tests(failed) -->
+  <test thread-count="2" parallel="tests" name="Auth Tests(failed)">
+    <classes>
+      <class name="testcases.LoginTests">
+        <methods>
+          <include name="testValidUserLogin"/>
+          <include name="testInvalidUserLogin"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcases.LoginTests -->
+    </classes>
+  </test> <!-- Auth Tests(failed) -->
+  <test thread-count="2" parallel="tests" name="Schema Tests(failed)">
+    <classes>
+      <class name="testcases.SchemaTests">
+        <methods>
+          <include name="testCartSchema"/>
+          <include name="testProductSchema"/>
+          <include name="testUserSchema"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcases.SchemaTests -->
+    </classes>
+  </test> <!-- Schema Tests(failed) -->
+  <test thread-count="2" parallel="tests" name="Cart Tests(failed)">
+    <classes>
+      <class name="testcases.CartTests">
+        <methods>
+          <include name="testGetCartsSorted"/>
+          <include name="testGetCartsByDateRange"/>
+          <include name="testGetCartsWithLimit"/>
+          <include name="testGetCartsSortedAsc"/>
+          <include name="testGetCartById"/>
+          <include name="testGetAllCarts"/>
+          <include name="testUpdateCart"/>
+          <include name="testGetUserCart"/>
+          <include name="testCreateCart"/>
+          <include name="testDeleteCart"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcases.CartTests -->
+    </classes>
+  </test> <!-- Cart Tests(failed) -->
 </suite> <!-- Failed suite [API TestSuite] -->
