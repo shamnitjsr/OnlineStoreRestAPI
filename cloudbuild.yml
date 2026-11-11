@@ -1,0 +1,80 @@
+substitutions:
+  _REPO_URL: "https://github.com/shamnitjsr/OnlineStoreRestAPI.git"
+  _BRANCH: "main"
+  _REPORT_BUCKET: "YOUR_BUCKET_NAME"      # GCS bucket for reports
+
+steps:
+  # 0. Checkout (CodeBuild did this automatically from the project source).
+  #    Remove this step if you use a GitHub-connected trigger.
+  - id: 'checkout'
+    name: 'gcr.io/cloud-builders/git'
+    args: ['clone', '--branch', '${_BRANCH}', '--depth', '1', '${_REPO_URL}', 'repo']
+
+  # 1. install phase: JDK 11 + Maven come from the image
+  - id: 'install'
+    name: 'maven:3.9-eclipse-temurin-11'
+    dir: 'repo'
+    entrypoint: 'bash'
+    args:
+      - '-c'
+      - |
+        echo "Setting up JDK and Maven..."
+        java -version
+        mvn -version
+
+  # 2. build phase: compile
+  - id: 'build'
+    name: 'maven:3.9-eclipse-temurin-11'
+    dir: 'repo'
+    entrypoint: 'bash'
+    args:
+      - '-c'
+      - |
+        echo "Building Maven project..."
+        mvn -B clean compile
+
+  # 3. build phase: run tests. Save the exit code so later steps still run.
+  - id: 'test'
+    name: 'maven:3.9-eclipse-temurin-11'
+    dir: 'repo'
+    entrypoint: 'bash'
+    args:
+      - '-c'
+      - |
+        echo "Executing Rest Assured API automation tests..."
+        mvn -B clean test
+        echo $$? > /workspace/test_exit_code
+        exit 0
+
+  # 4. reports + artifacts: upload Surefire output to GCS (runs even if tests failed)
+  - id: 'publish-reports'
+    name: 'gcr.io/google.com/cloudsdktool/cloud-sdk:slim'
+    entrypoint: 'bash'
+    args:
+      - '-c'
+      - |
+        gcloud storage cp --recursive \
+          'repo/**/target/surefire-reports/*' \
+          gs://${_REPORT_BUCKET}/surefire-reports/$BUILD_ID/ \
+          || echo "No reports found to upload"
+
+  # 5. post_build phase: success/failure message, then set the build status
+  - id: 'post-build'
+    name: 'bash'
+    entrypoint: 'bash'
+    args:
+      - '-c'
+      - |
+        RC=$$(cat /workspace/test_exit_code)
+        if [ "$$RC" = "0" ]; then
+          echo "API automation execution completed successfully."
+        else
+          echo "API automation execution FAILED. Check the Test and Report stages."
+        fi
+        echo "API automation pipeline execution completed."
+        exit $$RC
+
+options:
+  logging: CLOUD_LOGGING_ONLY
+
+timeout: 1800s                            # 30 minutes
