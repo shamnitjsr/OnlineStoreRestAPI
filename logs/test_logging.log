@@ -22,7 +22,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Mon, 26 Oct 2026 16:40:33 GMT
+Date: Wed, 11 Nov 2026 18:24:11 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -31,10 +31,10 @@ etag: W/"a1-wvAyaNKAHffOoZd5/I4wHuNFvSs"
 x-powered-by: Express
 cf-cache-status: DYNAMIC
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=z56qFnnwNpNggEfCjKaGM6SQRrzdm9GwezryoN6i1F9POsYL2zmzv3S3IgC6bvqggqRPFtHtKVCqrYx3Ooq%2Fzi64cOKwU8BxhloVk67HaFgS9E%2BZmXwUWNYp69dEcdnQP5Mu"}]}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=5b8MjLHcS1o8Je9sPKNH97wcOKIn6sFOurkCHSHpmNqsMcMfGi1RAjAhsahlTcp8OiF8FpL85d%2Ffaz3UXTWwJaYdRFmseXcEtQT6s7qpq0ch3PotT679tY3hCbW6OEx%2F2L4q"}]}
 Content-Encoding: gzip
 Server: cloudflare
-CF-RAY: a50ae74828d0e1f1-MRS
+CF-RAY: a58f5517afc27154-MRS
 
 {
     "id": 1,
@@ -68,7 +68,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Mon, 26 Oct 2026 16:40:33 GMT
+Date: Wed, 11 Nov 2026 18:24:12 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -77,10 +77,10 @@ etag: W/"3a8-j3C8983spvK8GpaSYa+SyYlAS2A"
 x-powered-by: Express
 cf-cache-status: DYNAMIC
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=bB18VHO9UKV3r0KESiopgY7UsgbdB1CbM%2BizkvUBKbtkPDdKfWoK2AmAbPxUw05NfMVKHBzqnbWf%2FanRbkRro%2FVWbgpyGFVauHUpfLGsCeGt48GMOHdQkHjCar9roVQWi61H"}]}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=%2BtyhU3%2BBuIUWXOTSu%2BKD2XCQ%2FY1MsVnvWp2JTfTf0r98mIq3dSCXc4TLuXnhQao7oaWDvtCFJ64HIhzXkM93aFRvc97jFHdDVnOUUhFUVRHdjjet1dIeEZL5f5FBbHCTu5JM"}]}
 Content-Encoding: gzip
 Server: cloudflare
-CF-RAY: a50ae74b49ebe1f1-MRS
+CF-RAY: a58f551a3bdeaa1e-MRS
 
 [
     {
@@ -208,7 +208,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Mon, 26 Oct 2026 16:40:34 GMT
+Date: Wed, 11 Nov 2026 18:24:12 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -217,10 +217,10 @@ etag: W/"16d-ryVvNeDR+OwaJd+i2vi/OPo/G4Y"
 x-powered-by: Express
 cf-cache-status: DYNAMIC
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=bTeoVVsg%2B6p5WTVueufqm7%2FF4K15Utt0Yhpv6LbogafWJsyaHd1fV%2FulCEpwN%2Fa1qPslSVATe6Wsr%2Bd7SeGH%2F%2BO5byLp3pbD15KMQRrCKn9ue%2BvYTcok3C9NRVMO4p0K%2Bc3k"}]}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=WfhrQ2ptciZI00EvRF7TzCS%2Fk0vXFpMH1cyBJXJr7TACU0CPnxlg3THp9gxKTGgEaQ8lCeROwCUKerlHOQ8Hfs1aXTC7bamdqx7RchJi%2FkACRlh2v1D4hLwJe1yvCEPwC2A%2B"}]}
 Content-Encoding: gzip
 Server: cloudflare
-CF-RAY: a50ae74cc8f4e1d8-MRS
+CF-RAY: a58f551d3d7be279-MRS
 
 {
     "id": 1,
@@ -246,7 +246,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Mon, 26 Oct 2026 16:40:34 GMT
+Date: Wed, 11 Nov 2026 18:24:12 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -255,10 +255,10 @@ etag: W/"3a8-nb02RQT3OuKfcepxTeTynGjWm8Q"
 x-powered-by: Express
 cf-cache-status: DYNAMIC
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=894UxzXKR3Uxvu9DX9B8AUwFkwrMrCbeI5L0kLh1OCpeTJCbt8CtXH%2BLInU0aw2mlbzC4TsGyWMSVCGNgOaMfXo6pdtuc7UThYOvpkJXKMuUfbf06CauBzEXOt4gXxEoNwuE"}]}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=uX83pYAtLuGH14rtwWgXooal%2BIEG9h3BvjGY818bobiRheeJuyurNIpPGLUmCavegTZ4qna%2FZU3OHyIgcdPjiOCSfqFAwTYnw9YtB0PDMTwsYtzEVluimA3u2s36%2Boz1Fddo"}]}
 Content-Encoding: gzip
 Server: cloudflare
-CF-RAY: a50ae74eff76e1af-MRS
+CF-RAY: a58f551e8f282c77-MRS
 
 [
     {
@@ -386,7 +386,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Mon, 26 Oct 2026 16:40:34 GMT
+Date: Wed, 11 Nov 2026 18:24:13 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -395,10 +395,10 @@ etag: W/"120-HNMhv14aQeBJetA9fBvavCZ+gdk"
 x-powered-by: Express
 cf-cache-status: DYNAMIC
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=EW2vJdew5GZdclxzjNLl06UMxRwToILlcYrXzNK5fCzXI3tn27hHNe4jAc0dDP%2FHF6TqHxHN0%2BLUei5yBs0dJnGR4tyU1Gix652J9yVLBVzsmR%2Bf5m9kiLYjk8EBQ9Vlg5cB"}]}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=4SuJIdzrvbMYblsuV5LQn4%2F2aVNcz%2Fq1Zq%2B2yEdttN4xwEU8bpm0iE5N6l%2B2o%2Bn2ZZmPeG6AlrRr8%2BsxtERJLJ1e7MGkYNHftrOPVE5F2oYR2A95gE7%2BUc%2FIex4ri5X6veoQ"}]}
 Content-Encoding: gzip
 Server: cloudflare
-CF-RAY: a50ae74fe93ce23c-MRS
+CF-RAY: a58f5520e8046f75-CDG
 
 {
     "address": {
@@ -423,7 +423,7 @@ CF-RAY: a50ae74fe93ce23c-MRS
     "__v": 0
 }
 HTTP/1.1 200 OK
-Date: Mon, 26 Oct 2026 16:40:35 GMT
+Date: Wed, 11 Nov 2026 18:24:13 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -432,10 +432,10 @@ etag: W/"3a8-j3C8983spvK8GpaSYa+SyYlAS2A"
 x-powered-by: Express
 cf-cache-status: DYNAMIC
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=2dc6qGMPh5zH4jxoBHYx%2FHjCqptld%2BlPpJhgR3X4alhjlFdBnIB37hokAl941fjRuZ29J96ICx4XaB%2BIoiPFFnlkXyJWcW3XWHjOIwrYPp4VECbR%2FfjBgibRG47RwtwRMEVJ"}]}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=pZo7BK6EJdQnWVXQsoSXssD3e50Z0%2B1blfzyxrOpBYoWTlzFaOqXRACL%2BKL6qmk2%2BFzBStU%2Fxl8qz4bxgflZb7PvHNvqXWtXu9vDS0I2mCD3aoXT01Rr9lWOkc3x1PDAe87B"}]}
 Content-Encoding: gzip
 Server: cloudflare
-CF-RAY: a50ae7527cd85ee7-MRS
+CF-RAY: a58f55238f706f8e-CDG
 
 [
     {
@@ -563,7 +563,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Mon, 26 Oct 2026 16:40:35 GMT
+Date: Wed, 11 Nov 2026 18:24:14 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -572,10 +572,10 @@ etag: W/"1cb-k9STtBKwUNpGzaiwMY35nM5R8kQ"
 x-powered-by: Express
 cf-cache-status: DYNAMIC
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=NYjkSqqaQ6AIA3gQy9e8UyFDucMxNXke5fy%2FgcHADjYNGw1L2pGi9Nk1cAiPsJ9DHiUdjXJAv2qILYcZUCtir8ZERLBDyjVtGHuRLDMfb0U591y3Q4yslBNqnHpVNiI1oWRZ"}]}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=6gl6E5V80Yk4sg0N7cH2stu86I%2F4PRa1HWho4%2FO7nJ3BIfgk2bAmW3v%2BoYAxHSbgj7SyOdZylmDYvCgclO%2Ft3Vew2fbKWi1QP7H7k%2Fg2G%2F4GjI8Nkj%2FGKpEHHq7ntbGEMNGF"}]}
 Content-Encoding: gzip
 Server: cloudflare
-CF-RAY: a50ae755dcc683c5-MRS
+CF-RAY: a58f55279853c1fb-MRS
 
 [
     {
@@ -647,7 +647,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Mon, 26 Oct 2026 16:40:36 GMT
+Date: Wed, 11 Nov 2026 18:24:14 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -656,10 +656,10 @@ etag: W/"146-FwHfNZmdUPmJQHLVlvUyMMxf3IQ"
 x-powered-by: Express
 cf-cache-status: DYNAMIC
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=HIY2SbmOZ38dgwIaFi3G3fytSEfUE4%2By9WSYSR%2F1TU1U7%2F5SxJln7aaU3MDqgkCItYXOvPa6ESCDeCSD3EKqaJ8iIIPAhFKVJS605pIM6rqyB54qUuFuCJ%2F2k1dzgq9deES0"}]}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=U2UvKqP%2BCo0SLl%2BTTSd30dAmUa%2F%2Fgy5yKyJvIuszg%2BnO7YhKNzzCFniclUZ89u4N6Hlbh8WJlHQomzR6eNEDaSx5U0VoQE8V9bxXuRIb5xcBknxlaEh3KKi5pq8pmGIXKknN"}]}
 Content-Encoding: gzip
 Server: cloudflare
-CF-RAY: a50ae7598d4e7894-MRS
+CF-RAY: a58f552bf8186073-MRS
 
 [
     {
@@ -717,80 +717,77 @@ Multiparts:		<none>
 Body:
 {
     "userId": 1,
-    "date": "2026-10-26",
+    "date": "2026-11-11",
     "products": [
         {
-            "productId": 30,
-            "quantity": 2
+            "productId": 21,
+            "quantity": 1
         }
     ]
 }
 HTTP/1.1 200 OK
-Date: Mon, 26 Oct 2026 16:40:36 GMT
+Date: Wed, 11 Nov 2026 18:24:15 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
 access-control-allow-origin: *
-etag: W/"52-blQfJhaPMm5Cjjd+yO4VCFNgKTk"
+etag: W/"52-/TAMTbKnezp8DSmGDVoWSRCnIjI"
 x-powered-by: Express
 cf-cache-status: DYNAMIC
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=RnXU%2BhYRmq%2BNSUfI4M4t3FJl8oaAhDYv8mFDvQzt9fIdxS1iKZHVKRg%2FWmQLb4kYqsCKUT%2BU1VEuZBmCqu%2BtpNEhqo%2Fh3OvowwALRlRfbF%2Bd7RAtg9B55qwWLhMtfrt%2BL%2FE1"}]}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=KCRiyb0xUdE8Cze5gtRApuKpcJmwFxt8JzoTidoX1wj9FQNqE36dEwEFUkHqdFBgLcEC7YLv7TFu68xKXbAtcfxY1a1hr0JgjcPR2RAS21WwskWwW6pi3%2FeL6%2BHvKZy3k9CX"}]}
 Content-Encoding: gzip
 Server: cloudflare
-CF-RAY: a50ae75d1b82da11-MRS
+CF-RAY: a58f5530bad63308-MRS
 
 {
     "id": 1,
     "userId": 1,
-    "date": "2026-10-26",
+    "date": "2026-11-11",
     "products": [
         {
-            "productId": 30,
-            "quantity": 2
+            "productId": 21,
+            "quantity": 1
         }
     ]
 }
-e
+pe: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
 access-control-allow-origin: *
-etag: W/"3a8-j3C8983spvK8GpaSYa+SyYlAS2A"
+etag: W/"120-HNMhv14aQeBJetA9fBvavCZ+gdk"
 x-powered-by: Express
 cf-cache-status: DYNAMIC
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=2dc6qGMPh5zH4jxoBHYx%2FHjCqptld%2BlPpJhgR3X4alhjlFdBnIB37hokAl941fjRuZ29J96ICx4XaB%2BIoiPFFnlkXyJWcW3XWHjOIwrYPp4VECbR%2FfjBgibRG47RwtwRMEVJ"}]}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=4SuJIdzrvbMYblsuV5LQn4%2F2aVNcz%2Fq1Zq%2B2yEdttN4xwEU8bpm0iE5N6l%2B2o%2Bn2ZZmPeG6AlrRr8%2BsxtERJLJ1e7MGkYNHftrOPVE5F2oYR2A95gE7%2BUc%2FIex4ri5X6veoQ"}]}
 Content-Encoding: gzip
 Server: cloudflare
-CF-RAY: a50ae7527cd85ee7-MRS
+CF-RAY: a58f5520e8046f75-CDG
 
-[
-    {
-        "id": 1,
-        "userId": 1,
-        "date": "2020-03-02T00:00:00.000Z",
-        "products": [
-            {
-                "productId": 1,
-                "quantity": 4
-            },
-            {
-                "productId": 2,
-                "quantity": 1
-            },
-            {
-                "productId": 3,
-                "quantity": 6
-            }
-        ],
-        "__v": 0
+{
+    "address": {
+        "geolocation": {
+            "lat": "-37.3159",
+            "long": "81.1496"
+        },
+        "city": "kilcoole",
+        "street": "new road",
+        "number": 7682,
+        "zipcode": "12926-3874"
     },
-    {
-        "id": 2,
-        "userId": 1,
-        "date": "2020-01-02T00:00:00.000Z",
-        "products": [
-            {
-                HTTP/1.1 200 OK
-Date: Mon, 26 Oct 2026 16:40:35 GMT
+    "id": 1,
+    "email": "john@gmail.com",
+    "username": "johnd",
+    "password": "m38rmF$",
+    "name": {
+        "firstname": "john",
+        "lastname": "doe"
+    },
+    "phone": "1-570-236-7033",
+    "__v": 0
+}
+HTTP/1.1 200 OK
+Date: Wed, 11 Nov 2026 18:24:13 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -799,10 +796,10 @@ etag: W/"3a8-j3C8983spvK8GpaSYa+SyYlAS2A"
 x-powered-by: Express
 cf-cache-status: DYNAMIC
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=2dc6qGMPh5zH4jxoBHYx%2FHjCqptld%2BlPpJhgR3X4alhjlFdBnIB37hokAl941fjRuZ29J96ICx4XaB%2BIoiPFFnlkXyJWcW3XWHjOIwrYPp4VECbR%2FfjBgibRG47RwtwRMEVJ"}]}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=pZo7BK6EJdQnWVXQsoSXssD3e50Z0%2B1blfzyxrOpBYoWTlzFaOqXRACL%2BKL6qmk2%2BFzBStU%2Fxl8qz4bxgflZb7PvHNvqXWtXu9vDS0I2mCD3aoXT01Rr9lWOkc3x1PDAe87B"}]}
 Content-Encoding: gzip
 Server: cloudflare
-CF-RAY: a50ae7527cd85ee7-MRS
+CF-RAY: a58f55238f706f8e-CDG
 
 [
     {
@@ -855,7 +852,70 @@ CF-RAY: a50ae7527cd85ee7-MRS
                 "quantity": 2
             },
             {
-   Request method:	GET
+                "productId": 9,
+                "quantity": 1
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 4,
+        "userId": 3,
+        "date": "2020-01-01T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 1,
+                "quantity": 4
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 5,
+        "userId": 3,
+        "date": "2020-03-01T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 7,
+                "quantity": 1
+            },
+            {
+                "productId": 8,
+                "quantity": 1
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 6,
+        "userId": 4,
+        "date": "2020-03-01T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 10,
+                "quantity": 2
+            },
+            {
+                "productId": 12,
+                "quantity": 3
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 7,
+        "userId": 8,
+        "date": "2020-03-01T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 18,
+                "quantity": 1
+            }
+        ],
+        "__v": 0
+    }
+]
+Request method:	GET
 Request URI:	https://fakestoreapi.com/carts?limit=3
 Proxy:			<none>
 Request params:	<none>
@@ -867,7 +927,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Mon, 26 Oct 2026 16:40:35 GMT
+Date: Wed, 11 Nov 2026 18:24:14 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -876,10 +936,10 @@ etag: W/"1cb-k9STtBKwUNpGzaiwMY35nM5R8kQ"
 x-powered-by: Express
 cf-cache-status: DYNAMIC
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=NYjkSqqaQ6AIA3gQy9e8UyFDucMxNXke5fy%2FgcHADjYNGw1L2pGi9Nk1cAiPsJ9DHiUdjXJAv2qILYcZUCtir8ZERLBDyjVtGHuRLDMfb0U591y3Q4yslBNqnHpVNiI1oWRZ"}]}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=6gl6E5V80Yk4sg0N7cH2stu86I%2F4PRa1HWho4%2FO7nJ3BIfgk2bAmW3v%2BoYAxHSbgj7SyOdZylmDYvCgclO%2Ft3Vew2fbKWi1QP7H7k%2Fg2G%2F4GjI8Nkj%2FGKpEHHq7ntbGEMNGF"}]}
 Content-Encoding: gzip
 Server: cloudflare
-CF-RAY: a50ae755dcc683c5-MRS
+CF-RAY: a58f55279853c1fb-MRS
 
 [
     {
@@ -908,18 +968,38 @@ CF-RAY: a50ae755dcc683c5-MRS
         "date": "2020-01-02T00:00:00.000Z",
         "products": [
             {
-                "produHTTP/1.1 200 OK
-Date: Mon, 26 Oct 2026 16:40:35 GMT
-Content-Type: application/json; charset=utf-8
-Transfer-Encoding: chunked
-Connection: keep-alive
-access-control-allow-origin: *
-etag: W/"1cb-k9STtBKwUNpGzaiwMY35nM5R8kQ"
-x-powered-by: Express
-cf-cache-status: DYNAMIC
-Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=NYjkSqqaQ6AIA3gQy9e8UyFDucMxNXke5fy%2FgcHADjYNGw1L2pGi9Nk1cAiPsJ9DHiUdjXJAv2qILYcZUCtir8ZERLBDyjVtGHuRLDMfb0U591y3Q4yslBNqnHpVNiI1oWRZ"}]}
-ContenRequest method:	GET
+                "productId": 2,
+                "quantity": 4
+            },
+            {
+                "productId": 1,
+                "quantity": 10
+            },
+            {
+                "productId": 5,
+                "quantity": 2
+            }
+        ],
+        "__v": 0
+    },
+    {
+        "id": 3,
+        "userId": 2,
+        "date": "2020-03-01T00:00:00.000Z",
+        "products": [
+            {
+                "productId": 1,
+                "quantity": 2
+            },
+            {
+                "productId": 9,
+                "quantity": 1
+            }
+        ],
+        "__v": 0
+    }
+]
+Request method:	GET
 Request URI:	https://fakestoreapi.com/carts/user/1
 Proxy:			<none>
 Request params:	<none>
@@ -931,7 +1011,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Mon, 26 Oct 2026 16:40:36 GMT
+Date: Wed, 11 Nov 2026 18:24:14 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -940,10 +1020,10 @@ etag: W/"146-FwHfNZmdUPmJQHLVlvUyMMxf3IQ"
 x-powered-by: Express
 cf-cache-status: DYNAMIC
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=HIY2SbmOZ38dgwIaFi3G3fytSEfUE4%2By9WSYSR%2F1TU1U7%2F5SxJln7aaU3MDqgkCItYXOvPa6ESCDeCSD3EKqaJ8iIIPAhFKVJS605pIM6rqyB54qUuFuCJ%2F2k1dzgq9deES0"}]}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=U2UvKqP%2BCo0SLl%2BTTSd30dAmUa%2F%2Fgy5yKyJvIuszg%2BnO7YhKNzzCFniclUZ89u4N6Hlbh8WJlHQomzR6eNEDaSx5U0VoQE8V9bxXuRIb5xcBknxlaEh3KKi5pq8pmGIXKknN"}]}
 Content-Encoding: gzip
 Server: cloudflare
-CF-RAY: a50ae7598d4e7894-MRS
+CF-RAY: a58f552bf8186073-MRS
 
 [
     {
@@ -972,16 +1052,22 @@ CF-RAY: a50ae7598d4e7894-MRS
         "date": "2020-01-02T00:00:00.000Z",
         "products": [
             {
-                HTTP/1.1 200 OK
-Date: Mon, 26 Oct 2026 16:40:36 GMT
-Content-Type: application/json; charset=utf-8
-Transfer-Encoding: chunked
-Connection: keep-alive
-access-control-allow-origin: *
-etag: W/"146-FwHfNZmdUPmJQHLVlvUyMMxf3IQ"
-x-powered-by: Express
-cf-cache-status: DYNAMIC
-NelRequest method:	PUT
+                "productId": 2,
+                "quantity": 4
+            },
+            {
+                "productId": 1,
+                "quantity": 10
+            },
+            {
+                "productId": 5,
+                "quantity": 2
+            }
+        ],
+        "__v": 0
+    }
+]
+Request method:	PUT
 Request URI:	https://fakestoreapi.com/carts/1
 Proxy:			<none>
 Request params:	<none>
@@ -995,88 +1081,41 @@ Multiparts:		<none>
 Body:
 {
     "userId": 1,
-    "date": "2026-10-26",
+    "date": "2026-11-11",
     "products": [
         {
-            "productId": 30,
-            "quantity": 2
+            "productId": 21,
+            "quantity": 1
         }
     ]
 }
 HTTP/1.1 200 OK
-Date: Mon, 26 Oct 2026 16:40:36 GMT
+Date: Wed, 11 Nov 2026 18:24:15 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
 access-control-allow-origin: *
-etag: W/"52-blQfJhaPMm5Cjjd+yO4VCFNgKTk"
+etag: W/"52-/TAMTbKnezp8DSmGDVoWSRCnIjI"
 x-powered-by: Express
 cf-cache-status: DYNAMIC
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=RnXU%2BhYRmq%2BNSUfI4M4t3FJl8oaAhDYv8mFDvQzt9fIdxS1iKZHVKRg%2FWmQLb4kYqsCKUT%2BU1VEuZBmCqu%2BtpNEhqo%2Fh3OvowwALRlRfbF%2Bd7RAtg9B55qwWLhMtfrt%2BL%2FE1"}]}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=KCRiyb0xUdE8Cze5gtRApuKpcJmwFxt8JzoTidoX1wj9FQNqE36dEwEFUkHqdFBgLcEC7YLv7TFu68xKXbAtcfxY1a1hr0JgjcPR2RAS21WwskWwW6pi3%2FeL6%2BHvKZy3k9CX"}]}
 Content-Encoding: gzip
 Server: cloudflare
-CF-RAY: a50ae75d1b82da11-MRS
+CF-RAY: a58f5530bad63308-MRS
 
 {
     "id": 1,
     "userId": 1,
-    "date": "2026-10-26",
+    "date": "2026-11-11",
     "products": [
         {
-            "productId": 30,
-            "quantity": 2
+            "productId": 21,
+            "quantity": 1
         }
     ]
 }
-I:	https://fakestoreapi.com/carts/1
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	id=1
-Headers:		Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "userId": 1,
-    "date": "2026-10-26",
-    "products": [
-        {
-            "productId": 30,
-            "quantity": 2
-        }
-    ]
-}
-HTTP/1.1 200 OK
-Date: Mon, 26 Oct 2026 16:40:36 GMT
-Content-Type: application/json; charset=utf-8
-Transfer-Encoding: chunked
-Connection: keep-alive
-access-control-allow-origin: *
-etag: W/"52-blQfJhaPMm5Cjjd+yO4VCFNgKTk"
-x-powered-by: Express
-cf-cache-status: DYNAMIC
-Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=RnXU%2BhYRmq%2BNSUfI4M4t3FJl8oaAhDYv8mFDvQzt9fIdxS1iKZHVKRg%2FWmQLb4kYqsCKUT%2BU1VEuZBmCqu%2BtpNEhqo%2Fh3OvowwALRlRfbF%2Bd7RAtg9B55qwWLhMtfrt%2BL%2FE1"}]}
-Content-Encoding: gzip
-Server: cloudflare
-CF-RAY: a50ae75d1b82da11-MRS
-
-{
-    "id": 1,
-    "userId": 1,
-    "date": "2026-10-26",
-    "products": [
-        {
-            "productId": 30,
-            "quantity": 2
-        }
-    ]
-}
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     Request method:	GET
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         Request method:	GET
 Request URI:	https://fakestoreapi.com/carts/1
 Proxy:			<none>
 Request params:	<none>
@@ -1088,7 +1127,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Mon, 26 Oct 2026 16:40:33 GMT
+Date: Wed, 11 Nov 2026 18:24:11 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -1097,10 +1136,10 @@ etag: W/"a1-wvAyaNKAHffOoZd5/I4wHuNFvSs"
 x-powered-by: Express
 cf-cache-status: DYNAMIC
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=XcWG0RGtDGS6WQ9yQteSgQyJLLiYBpK4GU4ttiJmLqmBq80LJFjPjUGGUJbF572NllwPzrzpgWmJL0c2gKDklSfNiKN%2BIebnNjbI2t%2FIwSgo1k5WLfVIYR8JQxWuYSUvmha9"}]}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=qOtFJWu9Jt1XY%2F5HPtJ2JsdtyU5r0Prb1PTbr%2Bn34pAO0Y7mGrNHAbhHlDTNFkeXi0IgrgbpYS6lVEhi3ycaYvkEo%2BgsYziIZFyvfP9wvh6iWk2Bwme4n5oA83QaQU5JbSV7"}]}
 Content-Encoding: gzip
 Server: cloudflare
-CF-RAY: a50ae7473d422e36-MRS
+CF-RAY: a58f55157d6d0115-MRS
 
 {
     "id": 1,
@@ -1135,7 +1174,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Mon, 26 Oct 2026 16:40:33 GMT
+Date: Wed, 11 Nov 2026 18:24:11 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -1144,10 +1183,10 @@ etag: W/"a1-wvAyaNKAHffOoZd5/I4wHuNFvSs"
 x-powered-by: Express
 cf-cache-status: DYNAMIC
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=z56qFnnwNpNggEfCjKaGM6SQRrzdm9GwezryoN6i1F9POsYL2zmzv3S3IgC6bvqggqRPFtHtKVCqrYx3Ooq%2Fzi64cOKwU8BxhloVk67HaFgS9E%2BZmXwUWNYp69dEcdnQP5Mu"}]}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=5b8MjLHcS1o8Je9sPKNH97wcOKIn6sFOurkCHSHpmNqsMcMfGi1RAjAhsahlTcp8OiF8FpL85d%2Ffaz3UXTWwJaYdRFmseXcEtQT6s7qpq0ch3PotT679tY3hCbW6OEx%2F2L4q"}]}
 Content-Encoding: gzip
 Server: cloudflare
-CF-RAY: a50ae74828d0e1f1-MRS
+CF-RAY: a58f5517afc27154-MRS
 
 {
     "id": 1,
@@ -1181,7 +1220,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Mon, 26 Oct 2026 16:40:33 GMT
+Date: Wed, 11 Nov 2026 18:24:12 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -1190,10 +1229,10 @@ etag: W/"3a8-j3C8983spvK8GpaSYa+SyYlAS2A"
 x-powered-by: Express
 cf-cache-status: DYNAMIC
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=bB18VHO9UKV3r0KESiopgY7UsgbdB1CbM%2BizkvUBKbtkPDdKfWoK2AmAbPxUw05NfMVKHBzqnbWf%2FanRbkRro%2FVWbgpyGFVauHUpfLGsCeGt48GMOHdQkHjCar9roVQWi61H"}]}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=%2BtyhU3%2BBuIUWXOTSu%2BKD2XCQ%2FY1MsVnvWp2JTfTf0r98mIq3dSCXc4TLuXnhQao7oaWDvtCFJ64HIhzXkM93aFRvc97jFHdDVnOUUhFUVRHdjjet1dIeEZL5f5FBbHCTu5JM"}]}
 Content-Encoding: gzip
 Server: cloudflare
-CF-RAY: a50ae74b49ebe1f1-MRS
+CF-RAY: a58f551a3bdeaa1e-MRS
 
 [
     {
@@ -1321,7 +1360,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Mon, 26 Oct 2026 16:40:34 GMT
+Date: Wed, 11 Nov 2026 18:24:12 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -1330,10 +1369,10 @@ etag: W/"16d-ryVvNeDR+OwaJd+i2vi/OPo/G4Y"
 x-powered-by: Express
 cf-cache-status: DYNAMIC
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=bTeoVVsg%2B6p5WTVueufqm7%2FF4K15Utt0Yhpv6LbogafWJsyaHd1fV%2FulCEpwN%2Fa1qPslSVATe6Wsr%2Bd7SeGH%2F%2BO5byLp3pbD15KMQRrCKn9ue%2BvYTcok3C9NRVMO4p0K%2Bc3k"}]}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=WfhrQ2ptciZI00EvRF7TzCS%2Fk0vXFpMH1cyBJXJr7TACU0CPnxlg3THp9gxKTGgEaQ8lCeROwCUKerlHOQ8Hfs1aXTC7bamdqx7RchJi%2FkACRlh2v1D4hLwJe1yvCEPwC2A%2B"}]}
 Content-Encoding: gzip
 Server: cloudflare
-CF-RAY: a50ae74cc8f4e1d8-MRS
+CF-RAY: a58f551d3d7be279-MRS
 
 {
     "id": 1,
@@ -1359,7 +1398,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Mon, 26 Oct 2026 16:40:34 GMT
+Date: Wed, 11 Nov 2026 18:24:12 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -1368,10 +1407,10 @@ etag: W/"3a8-nb02RQT3OuKfcepxTeTynGjWm8Q"
 x-powered-by: Express
 cf-cache-status: DYNAMIC
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=894UxzXKR3Uxvu9DX9B8AUwFkwrMrCbeI5L0kLh1OCpeTJCbt8CtXH%2BLInU0aw2mlbzC4TsGyWMSVCGNgOaMfXo6pdtuc7UThYOvpkJXKMuUfbf06CauBzEXOt4gXxEoNwuE"}]}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=uX83pYAtLuGH14rtwWgXooal%2BIEG9h3BvjGY818bobiRheeJuyurNIpPGLUmCavegTZ4qna%2FZU3OHyIgcdPjiOCSfqFAwTYnw9YtB0PDMTwsYtzEVluimA3u2s36%2Boz1Fddo"}]}
 Content-Encoding: gzip
 Server: cloudflare
-CF-RAY: a50ae74eff76e1af-MRS
+CF-RAY: a58f551e8f282c77-MRS
 
 [
     {
@@ -1499,7 +1538,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Mon, 26 Oct 2026 16:40:34 GMT
+Date: Wed, 11 Nov 2026 18:24:13 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -1508,10 +1547,10 @@ etag: W/"120-HNMhv14aQeBJetA9fBvavCZ+gdk"
 x-powered-by: Express
 cf-cache-status: DYNAMIC
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=EW2vJdew5GZdclxzjNLl06UMxRwToILlcYrXzNK5fCzXI3tn27hHNe4jAc0dDP%2FHF6TqHxHN0%2BLUei5yBs0dJnGR4tyU1Gix652J9yVLBVzsmR%2Bf5m9kiLYjk8EBQ9Vlg5cB"}]}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=4SuJIdzrvbMYblsuV5LQn4%2F2aVNcz%2Fq1Zq%2B2yEdttN4xwEU8bpm0iE5N6l%2B2o%2Bn2ZZmPeG6AlrRr8%2BsxtERJLJ1e7MGkYNHftrOPVE5F2oYR2A95gE7%2BUc%2FIex4ri5X6veoQ"}]}
 Content-Encoding: gzip
 Server: cloudflare
-CF-RAY: a50ae74fe93ce23c-MRS
+CF-RAY: a58f5520e8046f75-CDG
 
 {
     "address": {
@@ -1536,7 +1575,7 @@ CF-RAY: a50ae74fe93ce23c-MRS
     "__v": 0
 }
 HTTP/1.1 200 OK
-Date: Mon, 26 Oct 2026 16:40:35 GMT
+Date: Wed, 11 Nov 2026 18:24:13 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -1545,10 +1584,10 @@ etag: W/"3a8-j3C8983spvK8GpaSYa+SyYlAS2A"
 x-powered-by: Express
 cf-cache-status: DYNAMIC
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=2dc6qGMPh5zH4jxoBHYx%2FHjCqptld%2BlPpJhgR3X4alhjlFdBnIB37hokAl941fjRuZ29J96ICx4XaB%2BIoiPFFnlkXyJWcW3XWHjOIwrYPp4VECbR%2FfjBgibRG47RwtwRMEVJ"}]}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=pZo7BK6EJdQnWVXQsoSXssD3e50Z0%2B1blfzyxrOpBYoWTlzFaOqXRACL%2BKL6qmk2%2BFzBStU%2Fxl8qz4bxgflZb7PvHNvqXWtXu9vDS0I2mCD3aoXT01Rr9lWOkc3x1PDAe87B"}]}
 Content-Encoding: gzip
 Server: cloudflare
-CF-RAY: a50ae7527cd85ee7-MRS
+CF-RAY: a58f55238f706f8e-CDG
 
 [
     {
@@ -1676,7 +1715,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Mon, 26 Oct 2026 16:40:35 GMT
+Date: Wed, 11 Nov 2026 18:24:14 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -1685,10 +1724,10 @@ etag: W/"1cb-k9STtBKwUNpGzaiwMY35nM5R8kQ"
 x-powered-by: Express
 cf-cache-status: DYNAMIC
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=NYjkSqqaQ6AIA3gQy9e8UyFDucMxNXke5fy%2FgcHADjYNGw1L2pGi9Nk1cAiPsJ9DHiUdjXJAv2qILYcZUCtir8ZERLBDyjVtGHuRLDMfb0U591y3Q4yslBNqnHpVNiI1oWRZ"}]}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=6gl6E5V80Yk4sg0N7cH2stu86I%2F4PRa1HWho4%2FO7nJ3BIfgk2bAmW3v%2BoYAxHSbgj7SyOdZylmDYvCgclO%2Ft3Vew2fbKWi1QP7H7k%2Fg2G%2F4GjI8Nkj%2FGKpEHHq7ntbGEMNGF"}]}
 Content-Encoding: gzip
 Server: cloudflare
-CF-RAY: a50ae755dcc683c5-MRS
+CF-RAY: a58f55279853c1fb-MRS
 
 [
     {
@@ -1760,7 +1799,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Mon, 26 Oct 2026 16:40:36 GMT
+Date: Wed, 11 Nov 2026 18:24:14 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -1769,10 +1808,10 @@ etag: W/"146-FwHfNZmdUPmJQHLVlvUyMMxf3IQ"
 x-powered-by: Express
 cf-cache-status: DYNAMIC
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=HIY2SbmOZ38dgwIaFi3G3fytSEfUE4%2By9WSYSR%2F1TU1U7%2F5SxJln7aaU3MDqgkCItYXOvPa6ESCDeCSD3EKqaJ8iIIPAhFKVJS605pIM6rqyB54qUuFuCJ%2F2k1dzgq9deES0"}]}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=U2UvKqP%2BCo0SLl%2BTTSd30dAmUa%2F%2Fgy5yKyJvIuszg%2BnO7YhKNzzCFniclUZ89u4N6Hlbh8WJlHQomzR6eNEDaSx5U0VoQE8V9bxXuRIb5xcBknxlaEh3KKi5pq8pmGIXKknN"}]}
 Content-Encoding: gzip
 Server: cloudflare
-CF-RAY: a50ae7598d4e7894-MRS
+CF-RAY: a58f552bf8186073-MRS
 
 [
     {
@@ -1830,37 +1869,37 @@ Multiparts:		<none>
 Body:
 {
     "userId": 1,
-    "date": "2026-10-26",
+    "date": "2026-11-11",
     "products": [
         {
-            "productId": 30,
-            "quantity": 2
+            "productId": 21,
+            "quantity": 1
         }
     ]
 }
 HTTP/1.1 200 OK
-Date: Mon, 26 Oct 2026 16:40:36 GMT
+Date: Wed, 11 Nov 2026 18:24:15 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
 access-control-allow-origin: *
-etag: W/"52-blQfJhaPMm5Cjjd+yO4VCFNgKTk"
+etag: W/"52-/TAMTbKnezp8DSmGDVoWSRCnIjI"
 x-powered-by: Express
 cf-cache-status: DYNAMIC
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=RnXU%2BhYRmq%2BNSUfI4M4t3FJl8oaAhDYv8mFDvQzt9fIdxS1iKZHVKRg%2FWmQLb4kYqsCKUT%2BU1VEuZBmCqu%2BtpNEhqo%2Fh3OvowwALRlRfbF%2Bd7RAtg9B55qwWLhMtfrt%2BL%2FE1"}]}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=KCRiyb0xUdE8Cze5gtRApuKpcJmwFxt8JzoTidoX1wj9FQNqE36dEwEFUkHqdFBgLcEC7YLv7TFu68xKXbAtcfxY1a1hr0JgjcPR2RAS21WwskWwW6pi3%2FeL6%2BHvKZy3k9CX"}]}
 Content-Encoding: gzip
 Server: cloudflare
-CF-RAY: a50ae75d1b82da11-MRS
+CF-RAY: a58f5530bad63308-MRS
 
 {
     "id": 1,
     "userId": 1,
-    "date": "2026-10-26",
+    "date": "2026-11-11",
     "products": [
         {
-            "productId": 30,
-            "quantity": 2
+            "productId": 21,
+            "quantity": 1
         }
     ]
 }

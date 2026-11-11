@@ -1,10 +1,12 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>OnlineStoreFakeRestAPI</groupId>
-  <artifactId>OnlineStoreFakeRestAPI</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  
-    <build>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>OnlineStoreFakeRestAPI</groupId>
+	<artifactId>OnlineStoreFakeRestAPI</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+	<build>
 		<pluginManagement>
 
 			<plugins>
@@ -44,7 +46,7 @@
 		<scribejava-apis-version>8.3.3</scribejava-apis-version>
 		<javafaker-version>1.0.2</javafaker-version>
 		<jackson-databind-version>2.18.2</jackson-databind-version>
-		<allure-testng-version>2.29.0</allure-testng-version>
+		<allure-testng-version>2.32.0</allure-testng-version>
 		<extentreports-version>5.1.2</extentreports-version>
 	</properties>
 
@@ -123,8 +125,8 @@
 			<version>${allure-testng-version}</version>
 			<scope>test</scope>
 		</dependency>
-		
-	    
+
+
 		<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
 		<dependency>
 			<groupId>com.aventstack</groupId>
@@ -132,15 +134,14 @@
 			<version>${extentreports-version}</version>
 		</dependency>
 		<dependency>
-    <groupId>com.googlecode.json-simple</groupId>
-    <artifactId>json-simple</artifactId>
-    <version>1.1.1</version>
-</dependency>
-		
-		
+			<groupId>com.googlecode.json-simple</groupId>
+			<artifactId>json-simple</artifactId>
+			<version>1.1.1</version>
+		</dependency>
+
+
 	</dependencies>
-  
-  
-  
-  
+
+
 </project>
+<!--Shambhu 11112026 -->

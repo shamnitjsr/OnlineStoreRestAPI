@@ -1,39 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="13.774" tests="33" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="17.196" tests="33" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="java.specification.version" value="25"/>
+    <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\SHAMBHU KUMAR\git\OnlineStoreRestAPI\target\test-classes;C:\Users\SHAMBHU KUMAR\git\OnlineStoreRestAPI\target\classes;C:\Users\SHAMBHU KUMAR\.m2\repository\io\rest-assured\rest-assured\5.5.0\rest-assured-5.5.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\io\rest-assured\json-path\5.5.0\json-path-5.5.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\io\rest-assured\rest-assured-common\5.5.0\rest-assured-common-5.5.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\io\rest-assured\xml-path\5.5.0\xml-path-5.5.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\io\rest-assured\json-schema-validator\5.5.0\json-schema-validator-5.5.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\json\json\20250107\json-20250107.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\github\scribejava\scribejava-apis\8.3.3\scribejava-apis-8.3.3.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\github\scribejava\scribejava-core\8.3.3\scribejava-core-8.3.3.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\github\scribejava\scribejava-java8\8.3.3\scribejava-java8-8.3.3.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.2\jackson-databind-2.18.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.2\jackson-annotations-2.18.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.2\jackson-core-2.18.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\io\qameta\allure\allure-testng\2.29.0\allure-testng-2.29.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\io\qameta\allure\allure-java-commons\2.29.0\allure-java-commons-2.29.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\io\qameta\allure\allure-model\2.29.0\allure-model-2.29.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\io\qameta\allure\allure-test-filter\2.29.0\allure-test-filter-2.29.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;"/>
+    <property name="java.class.path" value="C:\Users\SHAMBHU KUMAR\git\OnlineStoreRestAPI\target\test-classes;C:\Users\SHAMBHU KUMAR\git\OnlineStoreRestAPI\target\classes;C:\Users\SHAMBHU KUMAR\.m2\repository\io\rest-assured\rest-assured\5.5.0\rest-assured-5.5.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\io\rest-assured\json-path\5.5.0\json-path-5.5.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\io\rest-assured\rest-assured-common\5.5.0\rest-assured-common-5.5.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\io\rest-assured\xml-path\5.5.0\xml-path-5.5.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\io\rest-assured\json-schema-validator\5.5.0\json-schema-validator-5.5.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\json\json\20250107\json-20250107.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\github\scribejava\scribejava-apis\8.3.3\scribejava-apis-8.3.3.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\github\scribejava\scribejava-core\8.3.3\scribejava-core-8.3.3.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\github\scribejava\scribejava-java8\8.3.3\scribejava-java8-8.3.3.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.2\jackson-databind-2.18.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.2\jackson-annotations-2.18.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.2\jackson-core-2.18.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\io\qameta\allure\allure-testng\2.32.0\allure-testng-2.32.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\io\qameta\allure\allure-java-commons\2.32.0\allure-java-commons-2.32.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\io\qameta\allure\allure-model\2.32.0\allure-model-2.32.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\io\qameta\allure\allure-test-filter\2.32.0\allure-test-filter-2.32.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="user.timezone" value="Asia/Calcutta"/>
     <property name="os.name" value="Windows 11"/>
-    <property name="java.vm.specification.version" value="25"/>
+    <property name="java.vm.specification.version" value="21"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25.0.5.0.2\bin"/>
-    <property name="sun.java.command" value="C:\Users\SHAMBHU KUMAR\AppData\Local\Temp\surefire5304293485701139737\surefirebooter-20261026221022834_3.jar C:\Users\SHAMBHU KUMAR\AppData\Local\Temp\surefire5304293485701139737 2026-10-26T22-10-22_708-jvmRun1 surefire-20261026221022834_1tmp surefire_0-20261026221022834_2tmp"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21.0.12.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\SHAMBHU KUMAR\AppData\Local\Temp\surefire7088480595108044214\surefirebooter-20261111235357799_3.jar C:\Users\SHAMBHU KUMAR\AppData\Local\Temp\surefire7088480595108044214 2026-11-11T23-53-57_689-jvmRun1 surefire-20261111235357799_1tmp surefire_0-20261111235357799_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\SHAMBHU KUMAR\git\OnlineStoreRestAPI\target\test-classes;C:\Users\SHAMBHU KUMAR\git\OnlineStoreRestAPI\target\classes;C:\Users\SHAMBHU KUMAR\.m2\repository\io\rest-assured\rest-assured\5.5.0\rest-assured-5.5.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\io\rest-assured\json-path\5.5.0\json-path-5.5.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\io\rest-assured\rest-assured-common\5.5.0\rest-assured-common-5.5.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\io\rest-assured\xml-path\5.5.0\xml-path-5.5.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\io\rest-assured\json-schema-validator\5.5.0\json-schema-validator-5.5.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\json\json\20250107\json-20250107.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\github\scribejava\scribejava-apis\8.3.3\scribejava-apis-8.3.3.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\github\scribejava\scribejava-core\8.3.3\scribejava-core-8.3.3.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\github\scribejava\scribejava-java8\8.3.3\scribejava-java8-8.3.3.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.2\jackson-databind-2.18.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.2\jackson-annotations-2.18.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.2\jackson-core-2.18.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\io\qameta\allure\allure-testng\2.29.0\allure-testng-2.29.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\io\qameta\allure\allure-java-commons\2.29.0\allure-java-commons-2.29.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\io\qameta\allure\allure-model\2.29.0\allure-model-2.29.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\io\qameta\allure\allure-test-filter\2.29.0\allure-test-filter-2.29.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\SHAMBHU KUMAR\git\OnlineStoreRestAPI\target\test-classes;C:\Users\SHAMBHU KUMAR\git\OnlineStoreRestAPI\target\classes;C:\Users\SHAMBHU KUMAR\.m2\repository\io\rest-assured\rest-assured\5.5.0\rest-assured-5.5.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\io\rest-assured\json-path\5.5.0\json-path-5.5.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\io\rest-assured\rest-assured-common\5.5.0\rest-assured-common-5.5.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\io\rest-assured\xml-path\5.5.0\xml-path-5.5.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\io\rest-assured\json-schema-validator\5.5.0\json-schema-validator-5.5.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\json\json\20250107\json-20250107.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\github\scribejava\scribejava-apis\8.3.3\scribejava-apis-8.3.3.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\github\scribejava\scribejava-core\8.3.3\scribejava-core-8.3.3.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\github\scribejava\scribejava-java8\8.3.3\scribejava-java8-8.3.3.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.2\jackson-databind-2.18.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.2\jackson-annotations-2.18.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.2\jackson-core-2.18.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\io\qameta\allure\allure-testng\2.32.0\allure-testng-2.32.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\io\qameta\allure\allure-java-commons\2.32.0\allure-java-commons-2.32.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\io\qameta\allure\allure-model\2.32.0\allure-model-2.32.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\io\qameta\allure\allure-test-filter\2.32.0\allure-test-filter-2.32.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\SHAMBHU KUMAR"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.version.date" value="2026-10-21"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk-25.0.5.0.2"/>
+    <property name="java.version.date" value="2026-08-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21.0.12.1"/>
     <property name="file.separator" value="\"/>
     <property name="basedir" value="C:\Users\SHAMBHU KUMAR\git\OnlineStoreRestAPI"/>
+    <property name="style.color" value="always"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\SHAMBHU KUMAR\AppData\Local\Temp\surefire5304293485701139737\surefirebooter-20261026221022834_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\SHAMBHU KUMAR\AppData\Local\Temp\surefire7088480595108044214\surefirebooter-20261111235357799_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="25.0.5.0.2+1-LTS-2"/>
+    <property name="java.runtime.version" value="21.0.12.1+1-LTS-4"/>
     <property name="user.name" value="SHAMBHU KUMAR"/>
     <property name="stdout.encoding" value="Cp1252"/>
     <property name="path.separator" value=";"/>
@@ -44,34 +45,33 @@
     <property name="localRepository" value="C:\Users\SHAMBHU KUMAR\.m2\repository"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\SHAMBH~1\AppData\Local\Temp\"/>
-    <property name="java.version" value="25.0.5.0.2"/>
+    <property name="java.version" value="21.0.12.1"/>
     <property name="user.dir" value="C:\Users\SHAMBHU KUMAR\git\OnlineStoreRestAPI"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-25.0.5.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\allure-2.46.1\bin;C:\apache-maven-3.10.0\bin;C:\Program Files\Java\jdk-25.0.5.0.2\bin;C:\Users\SHAMBHU KUMAR\AppData\Local\Programs\Python\Launcher\;C:\Users\SHAMBHU KUMAR\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21.0.12.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/SHAMBHU KUMAR/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_25.0.4.v20260826-0822/jre/bin/server;C:/Users/SHAMBHU KUMAR/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_25.0.4.v20260826-0822/jre/bin;C:\Python315\Scripts\;C:\Python315\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\allure-2.46.1\bin;C:\apache-maven-3.10.0\bin;C:\Program Files\Java\jdk-25.0.5.0.2\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\nodejs\node_modules;C:\Program Files\WSL\;C:\Users\SHAMBHU KUMAR\AppData\Local\Programs\Python\Launcher\;C:\Users\SHAMBHU KUMAR\AppData\Local\Microsoft\WindowsApps;;C:\Users\SHAMBHU KUMAR\.local\bin;C:\Users\SHAMBHU KUMAR\AppData\Roaming\npm;C:\Users\SHAMBHU KUMAR\AppData\Local\Programs\DockerDesktop\resources\bin;C:\WINDOWS\system32;;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="stderr.encoding" value="Cp1252"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.version" value="25.0.5.0.2+1-LTS-2"/>
-    <property name="stdin.encoding" value="Cp1252"/>
+    <property name="java.vm.version" value="21.0.12.1+1-LTS-4"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="java.class.version" value="69.0"/>
+    <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testCreateUser" classname="testcases.UserTests" time="2.608">
+  <testcase name="testAddNewProduct" classname="testcases.ProductTests" time="3.181">
     <system-out><![CDATA[{
     "id": 21,
-    "title": "Heavy Duty Steel Lamp",
-    "price": 91.29,
-    "description": "Qui officiis et ut quam vero perferendis.",
+    "title": "Practical Paper Shoes",
+    "price": 72.1,
+    "description": "Qui eius cumque eaque.",
     "image": "https://i.pravatar.cc/100",
     "category": "books"
 }
 {
-    "id": 11
+    "id": 1
 }
-Generated UserID=====:11
+Generated UserID=====:1
 21
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
@@ -79,8 +79,158 @@ SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="testDeleteUser" classname="testcases.UserTests" time="0.075"/>
-  <testcase name="testGetAllUsers" classname="testcases.UserTests" time="0.339">
+  <testcase name="testDeleteProduct" classname="testcases.ProductTests" time="0.692"/>
+  <testcase name="testGetAllCategories" classname="testcases.ProductTests" time="0.547"/>
+  <testcase name="testGetAllProducts" classname="testcases.ProductTests" time="0.256"/>
+  <testcase name="testGetLimitedProducts" classname="testcases.ProductTests" time="0.194">
+    <system-out><![CDATA[[
+    {
+        "id": 1,
+        "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+        "price": 109.95,
+        "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+        "category": "men's clothing",
+        "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_t.png",
+        "rating": {
+            "rate": 3.9,
+            "count": 120
+        }
+    },
+    {
+        "id": 2,
+        "title": "Mens Casual Premium Slim Fit T-Shirts ",
+        "price": 22.3,
+        "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
+        "category": "men's clothing",
+        "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_t.png",
+        "rating": {
+            "rate": 4.1,
+            "count": 259
+        }
+    },
+    {
+        "id": 3,
+        "title": "Mens Cotton Jacket",
+        "price": 55.99,
+        "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
+        "category": "men's clothing",
+        "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_t.png",
+        "rating": {
+            "rate": 4.7,
+            "count": 500
+        }
+    }
+]
+]]></system-out>
+  </testcase>
+  <testcase name="testGetProductsByCategory" classname="testcases.ProductTests" time="0.047">
+    <system-out><![CDATA[[
+    {
+        "id": 9,
+        "title": "WD 2TB Elements Portable External Hard Drive - USB 3.0 ",
+        "price": 64,
+        "description": "USB 3.0 and USB 2.0 Compatibility Fast data transfers Improve PC Performance High Capacity; Compatibility Formatted NTFS for Windows 10, Windows 8.1, Windows 7; Reformatting may be required for other operating systems; Compatibility may vary depending on user’s hardware configuration and operating system",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_t.png",
+        "rating": {
+            "rate": 3.3,
+            "count": 203
+        }
+    },
+    {
+        "id": 10,
+        "title": "SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s",
+        "price": 109,
+        "description": "Easy upgrade for faster boot up, shutdown, application load and response (As compared to 5400 RPM SATA 2.5” hard drive; Based on published specifications and internal benchmarking tests using PCMark vantage scores) Boosts burst write performance, making it ideal for typical PC workloads The perfect balance of performance and reliability Read/write speeds of up to 535MB/s/450MB/s (Based on internal testing; Performance may vary depending upon drive capacity, host device, OS and application.)",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_t.png",
+        "rating": {
+            "rate": 2.9,
+            "count": 470
+        }
+    },
+    {
+        "id": 11,
+        "title": "Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5",
+        "price": 109,
+        "description": "3D NAND flash are applied to deliver high transfer speeds Remarkable transfer speeds that enable faster bootup and improved overall system performance. The advanced SLC Cache Technology allows performance boost and longer lifespan 7mm slim design suitable for Ultrabooks and Ultra-slim notebooks. Supports TRIM command, Garbage Collection technology, RAID, and ECC (Error Checking & Correction) to provide the optimized performance and enhanced reliability.",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_t.png",
+        "rating": {
+            "rate": 4.8,
+            "count": 319
+        }
+    },
+    {
+        "id": 12,
+        "title": "WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive",
+        "price": 114,
+        "description": "Expand your PS4 gaming experience, Play anywhere Fast and easy, setup Sleek design with high capacity, 3-year manufacturer's limited warranty",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_t.png",
+        "rating": {
+            "rate": 4.8,
+            "count": 400
+        }
+    },
+    {
+        "id": 13,
+        "title": "Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin",
+        "price": 599,
+        "description": "21. 5 inches Full HD (1920 x 1080) widescreen IPS display And Radeon free Sync technology. No compatibility for VESA Mount Refresh Rate: 75Hz - Using HDMI port Zero-frame design | ultra-thin | 4ms response time | IPS panel Aspect ratio - 16: 9. Color Supported - 16. 7 million colors. Brightness - 250 nit Tilt angle -5 degree to 15 degree. Horizontal viewing angle-178 degree. Vertical viewing angle-178 degree 75 hertz",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_t.png",
+        "rating": {
+            "rate": 2.9,
+            "count": 250
+        }
+    },
+    {
+        "id": 14,
+        "title": "Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED ",
+        "price": 999.99,
+        "description": "49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra fast response time work to eliminate motion blur, ghosting, and reduce input lag",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_t.png",
+        "rating": {
+            "rate": 2.2,
+            "count": 140
+        }
+    }
+]
+]]></system-out>
+  </testcase>
+  <testcase name="testGetSingleProductById" classname="testcases.ProductTests" time="0.615">
+    <system-out><![CDATA[{
+    "id": 1,
+    "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+    "price": 109.95,
+    "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+    "category": "men's clothing",
+    "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_t.png",
+    "rating": {
+        "rate": 3.9,
+        "count": 120
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testGetSortedProducts" classname="testcases.ProductTests" time="0.497"/>
+  <testcase name="testGetSortedProductsAsc" classname="testcases.ProductTests" time="0.191"/>
+  <testcase name="testUpdateProduct" classname="testcases.ProductTests" time="0.442">
+    <system-out><![CDATA[{
+    "id": 1,
+    "title": "Intelligent Iron Chair",
+    "price": 4.88,
+    "description": "Quos maiores aut deserunt.",
+    "image": "https://i.pravatar.cc/100",
+    "category": "furniture"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateUser" classname="testcases.UserTests" time="3.184"/>
+  <testcase name="testDeleteUser" classname="testcases.UserTests" time="0.107"/>
+  <testcase name="testGetAllUsers" classname="testcases.UserTests" time="0.406">
     <system-out><![CDATA[[
     {
         "address": {
@@ -305,7 +455,7 @@ SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further detail
 ]
 ]]></system-out>
   </testcase>
-  <testcase name="testGetUserById" classname="testcases.UserTests" time="0.082">
+  <testcase name="testGetUserById" classname="testcases.UserTests" time="0.475">
     <system-out><![CDATA[{
     "address": {
         "geolocation": {
@@ -330,9 +480,9 @@ SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further detail
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testGetUsersSorted" classname="testcases.UserTests" time="0.153"/>
-  <testcase name="testGetUsersSortedAsc" classname="testcases.UserTests" time="0.021"/>
-  <testcase name="testGetUsersWithLimit" classname="testcases.UserTests" time="0.356">
+  <testcase name="testGetUsersSorted" classname="testcases.UserTests" time="0.584"/>
+  <testcase name="testGetUsersSortedAsc" classname="testcases.UserTests" time="0.244"/>
+  <testcase name="testGetUsersWithLimit" classname="testcases.UserTests" time="0.296">
     <system-out><![CDATA[[
     {
         "address": {
@@ -403,196 +553,46 @@ SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further detail
 ]
 ]]></system-out>
   </testcase>
-  <testcase name="testUpdateUser" classname="testcases.UserTests" time="0.311">
+  <testcase name="testUpdateUser" classname="testcases.UserTests" time="0.318">
     <system-out><![CDATA[{
-    "email": "ramiro.kreiger@gmail.com",
-    "username": "karren.oberbrunner",
-    "password": "a37tyo8rcd1fq",
+    "email": "donny.fadel@yahoo.com",
+    "username": "royce.gibson",
+    "password": "vgd7nswn3y3",
     "name": {
-        "firstname": "Jeanelle",
-        "lastname": "Koelpin"
+        "firstname": "Siobhan",
+        "lastname": "Abernathy"
     },
     "address": {
-        "city": "North Etta",
-        "street": "Rolande Alley",
-        "number": 25,
-        "zipcode": "28162",
+        "city": "Nigelberg",
+        "street": "O'Connell Alley",
+        "number": 35,
+        "zipcode": "74776-9214",
         "geolocation": {
-            "lat": "-52.046312",
-            "lng": "-42.521473"
+            "lat": "-11.513617",
+            "lng": "-177.57176"
         }
     },
-    "phone": "991.329.5775"
+    "phone": "441-378-1758"
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testAddNewProduct" classname="testcases.ProductTests" time="2.614"/>
-  <testcase name="testDeleteProduct" classname="testcases.ProductTests" time="0.59"/>
-  <testcase name="testGetAllCategories" classname="testcases.ProductTests" time="0.512"/>
-  <testcase name="testGetAllProducts" classname="testcases.ProductTests" time="0.274"/>
-  <testcase name="testGetLimitedProducts" classname="testcases.ProductTests" time="0.468">
-    <system-out><![CDATA[[
-    {
-        "id": 1,
-        "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
-        "price": 109.95,
-        "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
-        "category": "men's clothing",
-        "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_t.png",
-        "rating": {
-            "rate": 3.9,
-            "count": 120
-        }
-    },
-    {
-        "id": 2,
-        "title": "Mens Casual Premium Slim Fit T-Shirts ",
-        "price": 22.3,
-        "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
-        "category": "men's clothing",
-        "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_t.png",
-        "rating": {
-            "rate": 4.1,
-            "count": 259
-        }
-    },
-    {
-        "id": 3,
-        "title": "Mens Cotton Jacket",
-        "price": 55.99,
-        "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
-        "category": "men's clothing",
-        "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_t.png",
-        "rating": {
-            "rate": 4.7,
-            "count": 500
-        }
-    }
-]
-]]></system-out>
-  </testcase>
-  <testcase name="testGetProductsByCategory" classname="testcases.ProductTests" time="0.529">
-    <system-out><![CDATA[[
-    {
-        "id": 9,
-        "title": "WD 2TB Elements Portable External Hard Drive - USB 3.0 ",
-        "price": 64,
-        "description": "USB 3.0 and USB 2.0 Compatibility Fast data transfers Improve PC Performance High Capacity; Compatibility Formatted NTFS for Windows 10, Windows 8.1, Windows 7; Reformatting may be required for other operating systems; Compatibility may vary depending on user’s hardware configuration and operating system",
-        "category": "electronics",
-        "image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_t.png",
-        "rating": {
-            "rate": 3.3,
-            "count": 203
-        }
-    },
-    {
-        "id": 10,
-        "title": "SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s",
-        "price": 109,
-        "description": "Easy upgrade for faster boot up, shutdown, application load and response (As compared to 5400 RPM SATA 2.5” hard drive; Based on published specifications and internal benchmarking tests using PCMark vantage scores) Boosts burst write performance, making it ideal for typical PC workloads The perfect balance of performance and reliability Read/write speeds of up to 535MB/s/450MB/s (Based on internal testing; Performance may vary depending upon drive capacity, host device, OS and application.)",
-        "category": "electronics",
-        "image": "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_t.png",
-        "rating": {
-            "rate": 2.9,
-            "count": 470
-        }
-    },
-    {
-        "id": 11,
-        "title": "Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5",
-        "price": 109,
-        "description": "3D NAND flash are applied to deliver high transfer speeds Remarkable transfer speeds that enable faster bootup and improved overall system performance. The advanced SLC Cache Technology allows performance boost and longer lifespan 7mm slim design suitable for Ultrabooks and Ultra-slim notebooks. Supports TRIM command, Garbage Collection technology, RAID, and ECC (Error Checking & Correction) to provide the optimized performance and enhanced reliability.",
-        "category": "electronics",
-        "image": "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_t.png",
-        "rating": {
-            "rate": 4.8,
-            "count": 319
-        }
-    },
-    {
-        "id": 12,
-        "title": "WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive",
-        "price": 114,
-        "description": "Expand your PS4 gaming experience, Play anywhere Fast and easy, setup Sleek design with high capacity, 3-year manufacturer's limited warranty",
-        "category": "electronics",
-        "image": "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_t.png",
-        "rating": {
-            "rate": 4.8,
-            "count": 400
-        }
-    },
-    {
-        "id": 13,
-        "title": "Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin",
-        "price": 599,
-        "description": "21. 5 inches Full HD (1920 x 1080) widescreen IPS display And Radeon free Sync technology. No compatibility for VESA Mount Refresh Rate: 75Hz - Using HDMI port Zero-frame design | ultra-thin | 4ms response time | IPS panel Aspect ratio - 16: 9. Color Supported - 16. 7 million colors. Brightness - 250 nit Tilt angle -5 degree to 15 degree. Horizontal viewing angle-178 degree. Vertical viewing angle-178 degree 75 hertz",
-        "category": "electronics",
-        "image": "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_t.png",
-        "rating": {
-            "rate": 2.9,
-            "count": 250
-        }
-    },
-    {
-        "id": 14,
-        "title": "Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED ",
-        "price": 999.99,
-        "description": "49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra fast response time work to eliminate motion blur, ghosting, and reduce input lag",
-        "category": "electronics",
-        "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_t.png",
-        "rating": {
-            "rate": 2.2,
-            "count": 140
-        }
-    }
-]
-]]></system-out>
-  </testcase>
-  <testcase name="testGetSingleProductById" classname="testcases.ProductTests" time="0.266">
-    <system-out><![CDATA[{
-    "id": 1,
-    "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
-    "price": 109.95,
-    "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
-    "category": "men's clothing",
-    "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_t.png",
-    "rating": {
-        "rate": 3.9,
-        "count": 120
-    }
-}
-]]></system-out>
-  </testcase>
-  <testcase name="testGetSortedProducts" classname="testcases.ProductTests" time="0.075"/>
-  <testcase name="testGetSortedProductsAsc" classname="testcases.ProductTests" time="0.449"/>
-  <testcase name="testUpdateProduct" classname="testcases.ProductTests" time="0.317">
-    <system-out><![CDATA[{
-    "id": 1,
-    "title": "Small Plastic Chair",
-    "price": 21.38,
-    "description": "Omnis voluptas unde voluptas.",
-    "image": "https://i.pravatar.cc/100",
-    "category": "beauty"
-}
-]]></system-out>
-  </testcase>
-  <testcase name="testCreateCart" classname="testcases.CartTests" time="0.159">
+  <testcase name="testCreateCart" classname="testcases.CartTests" time="0.566">
     <system-out><![CDATA[{
     "id": 11,
     "userId": 1,
-    "date": "2026-10-26",
+    "date": "2026-11-11",
     "products": [
         {
-            "productId": 11,
-            "quantity": 9
+            "productId": 91,
+            "quantity": 8
         }
     ]
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testDeleteCart" classname="testcases.CartTests" time="0.519"/>
-  <testcase name="testGetAllCarts" classname="testcases.CartTests" time="0.488"/>
-  <testcase name="testGetCartById" classname="testcases.CartTests" time="0.418">
+  <testcase name="testDeleteCart" classname="testcases.CartTests" time="0.596"/>
+  <testcase name="testGetAllCarts" classname="testcases.CartTests" time="0.584"/>
+  <testcase name="testGetCartById" classname="testcases.CartTests" time="0.385">
     <system-out><![CDATA[{
     "id": 1,
     "userId": 1,
@@ -615,25 +615,25 @@ SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further detail
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testGetCartsByDateRange" classname="testcases.CartTests" time="0.345"/>
-  <testcase name="testGetCartsSorted" classname="testcases.CartTests" time="0.464"/>
-  <testcase name="testGetCartsSortedAsc" classname="testcases.CartTests" time="0.553"/>
-  <testcase name="testGetCartsWithLimit" classname="testcases.CartTests" time="0.526"/>
-  <testcase name="testGetUserCart" classname="testcases.CartTests" time="0.62"/>
-  <testcase name="testUpdateCart" classname="testcases.CartTests" time="0.447"/>
-  <testcase name="testInvalidUserLogin" classname="testcases.LoginTests" time="0.092">
+  <testcase name="testGetCartsByDateRange" classname="testcases.CartTests" time="0.215"/>
+  <testcase name="testGetCartsSorted" classname="testcases.CartTests" time="0.372"/>
+  <testcase name="testGetCartsSortedAsc" classname="testcases.CartTests" time="0.794"/>
+  <testcase name="testGetCartsWithLimit" classname="testcases.CartTests" time="0.66"/>
+  <testcase name="testGetUserCart" classname="testcases.CartTests" time="0.706"/>
+  <testcase name="testUpdateCart" classname="testcases.CartTests" time="0.578"/>
+  <testcase name="testInvalidUserLogin" classname="testcases.LoginTests" time="0.044">
     <system-out><![CDATA[<html>
   <body>username or password is incorrect</body>
 </html>
 ]]></system-out>
   </testcase>
-  <testcase name="testValidUserLogin" classname="testcases.LoginTests" time="0.159">
+  <testcase name="testValidUserLogin" classname="testcases.LoginTests" time="0.221">
     <system-out><![CDATA[{
-    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjIsInVzZXIiOiJtb3JfMjMxNCIsImlhdCI6MTc5MzAzMjgzMn0.8BdoFkGDU7SkH-gJxagKbpILrvL62ualABwQMsrLzVc"
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjIsInVzZXIiOiJtb3JfMjMxNCIsImlhdCI6MTc5NDQyMTQ1MH0.D6DVRcC54s1Fc2SmJaseooo2PeIm3jH2EdIAIQIu93k"
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testCartSchema" classname="testcases.SchemaTests" time="0.313"/>
-  <testcase name="testProductSchema" classname="testcases.SchemaTests" time="0.095"/>
-  <testcase name="testUserSchema" classname="testcases.SchemaTests" time="0.158"/>
+  <testcase name="testCartSchema" classname="testcases.SchemaTests" time="0.552"/>
+  <testcase name="testProductSchema" classname="testcases.SchemaTests" time="0.336"/>
+  <testcase name="testUserSchema" classname="testcases.SchemaTests" time="0.794"/>
 </testsuite>
