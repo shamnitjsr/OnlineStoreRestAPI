@@ -1,34 +1,34 @@
-# Azure Pipelines version of the Jenkins pipeline for OnlineStoreRestAPI
-# Save this file as "azure-pipelines.yml" in the ROOT of the repository.
+# Equivalent of the Jenkinsfile (Windows agent, JDK 11 + Maven)
+trigger: none          # manual runs only, like the Jenkins job. Use "batch: true" CI trigger if you want push builds
 
-trigger:
-  branches:
-    include:
-      - main
-
-pr: none
-
-pool:
-  vmImage: 'windows-latest'
+resources:
+  repositories:
+    - repository: OnlineStoreRestAPI          # alias used by the checkout step
+      type: github
+      name: shamnitjsr/OnlineStoreRestAPI     # REPO_URL
+      ref: refs/heads/main                    # BRANCH
+      endpoint: github-connection             # GitHub service connection name
 
 variables:
-  MAVEN_OPTS: '-Dfile.encoding=UTF-8'
-  project.build.sourceEncoding: 'UTF-8'
+  REPO_URL: 'https://github.com/shamnitjsr/OnlineStoreRestAPI.git'
+  BRANCH: 'main'
+
+pool:
+  vmImage: 'windows-latest'                   # Jenkins used 'bat', so a Windows agent
 
 jobs:
-  - job: BuildAndTest
-    displayName: 'Build and Run Tests'
-    timeoutInMinutes: 30          # same as Jenkins timeout(30 MINUTES)
-
+  - job: ApiAutomation
+    displayName: 'Rest Assured API Automation'
+    timeoutInMinutes: 30                      # options { timeout(30 MINUTES) }
     steps:
       # ---------- Checkout ----------
-      - checkout: self
-        displayName: 'Checkout Rest Assured project from GitHub'
+      - checkout: OnlineStoreRestAPI
+        displayName: 'Checkout'
         clean: true
 
-      # ---------- Tools (jdk 'MyJava' / maven 'MyMaven') ----------
+      # ---------- Tools (jdk 'MyJava', maven 'MyMaven') ----------
       - task: JavaToolInstaller@0
-        displayName: 'Set up JDK 11'
+        displayName: 'Setup JDK 11'
         inputs:
           versionSpec: '11'
           jdkArchitectureOption: 'x64'
@@ -45,36 +45,39 @@ jobs:
       # ---------- Test ----------
       - script: |
           echo Executing Rest Assured API automation tests...
-          mvn -B test
+          mvn -B clean test
         displayName: 'Test'
 
       # ---------- Report (runs even if tests fail) ----------
       - task: PublishTestResults@2
-        displayName: 'Publish API automation test results'
+        displayName: 'Report - Publish test results'
         condition: succeededOrFailed()
         inputs:
           testResultsFormat: 'JUnit'
-          testResultsFiles: '**/target/surefire-reports/TEST-*.xml'
-          failTaskOnFailedTests: true
-          failTaskOnMissingResultsFile: true
+          testResultsFiles: '**/target/surefire-reports/*.xml'
+          searchFolder: '$(Build.SourcesDirectory)'
+          failTaskOnMissingResultsFile: true  # allowEmptyResults: false
+          testRunTitle: 'Rest Assured API Tests'
 
       - task: PublishPipelineArtifact@1
-        displayName: 'Archive surefire reports'
+        displayName: 'Report - Archive surefire reports'
         condition: succeededOrFailed()
         inputs:
-          targetPath: '$(System.DefaultWorkingDirectory)/target/surefire-reports'
+          targetPath: '$(Build.SourcesDirectory)'
+          # Only the surefire reports are published
           artifact: 'surefire-reports'
           publishLocation: 'pipeline'
+        # See note below on narrowing the path
 
-      # ---------- Post actions ----------
+      # ---------- post { success / failure / always } ----------
       - script: echo API automation execution completed successfully.
-        displayName: 'Post success'
+        displayName: 'Post - Success'
         condition: succeeded()
 
       - script: echo API automation execution FAILED. Check the Test and Report steps.
-        displayName: 'Post failure'
+        displayName: 'Post - Failure'
         condition: failed()
 
-      - script: echo Azure API automation pipeline execution completed.
-        displayName: 'Post always'
+      - script: echo Azure Pipelines API automation execution completed.
+        displayName: 'Post - Always'
         condition: always()
