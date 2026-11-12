@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="17.196" tests="33" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="19.381" tests="33" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21.0.12.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\SHAMBHU KUMAR\AppData\Local\Temp\surefire7088480595108044214\surefirebooter-20261111235357799_3.jar C:\Users\SHAMBHU KUMAR\AppData\Local\Temp\surefire7088480595108044214 2026-11-11T23-53-57_689-jvmRun1 surefire-20261111235357799_1tmp surefire_0-20261111235357799_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\SHAMBHU KUMAR\AppData\Local\Temp\surefire11800781844884420974\surefirebooter-20261112192108091_3.jar C:\Users\SHAMBHU KUMAR\AppData\Local\Temp\surefire11800781844884420974 2026-11-12T19-21-07_787-jvmRun1 surefire-20261112192108091_1tmp surefire_0-20261112192108091_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\SHAMBHU KUMAR\git\OnlineStoreRestAPI\target\test-classes;C:\Users\SHAMBHU KUMAR\git\OnlineStoreRestAPI\target\classes;C:\Users\SHAMBHU KUMAR\.m2\repository\io\rest-assured\rest-assured\5.5.0\rest-assured-5.5.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\io\rest-assured\json-path\5.5.0\json-path-5.5.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\io\rest-assured\rest-assured-common\5.5.0\rest-assured-common-5.5.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\io\rest-assured\xml-path\5.5.0\xml-path-5.5.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\io\rest-assured\json-schema-validator\5.5.0\json-schema-validator-5.5.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\json\json\20250107\json-20250107.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\github\scribejava\scribejava-apis\8.3.3\scribejava-apis-8.3.3.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\github\scribejava\scribejava-core\8.3.3\scribejava-core-8.3.3.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\github\scribejava\scribejava-java8\8.3.3\scribejava-java8-8.3.3.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.2\jackson-databind-2.18.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.2\jackson-annotations-2.18.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.2\jackson-core-2.18.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\io\qameta\allure\allure-testng\2.32.0\allure-testng-2.32.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\io\qameta\allure\allure-java-commons\2.32.0\allure-java-commons-2.32.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\io\qameta\allure\allure-model\2.32.0\allure-model-2.32.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\io\qameta\allure\allure-test-filter\2.32.0\allure-test-filter-2.32.0.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\SHAMBHU KUMAR\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\SHAMBHU KUMAR\AppData\Local\Temp\surefire7088480595108044214\surefirebooter-20261111235357799_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\SHAMBHU KUMAR\AppData\Local\Temp\surefire11800781844884420974\surefirebooter-20261112192108091_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.12.1+1-LTS-4"/>
@@ -59,30 +59,30 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testAddNewProduct" classname="testcases.ProductTests" time="3.181">
+  <testcase name="testAddNewProduct" classname="testcases.ProductTests" time="6.405">
     <system-out><![CDATA[{
     "id": 21,
-    "title": "Practical Paper Shoes",
-    "price": 72.1,
-    "description": "Qui eius cumque eaque.",
+    "title": "Enormous Aluminum Knife",
+    "price": 20.41,
+    "description": "Et aliquam debitis.",
     "image": "https://i.pravatar.cc/100",
-    "category": "books"
+    "category": "clothing"
 }
 {
     "id": 1
 }
-Generated UserID=====:1
 21
+Generated UserID=====:1
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="testDeleteProduct" classname="testcases.ProductTests" time="0.692"/>
-  <testcase name="testGetAllCategories" classname="testcases.ProductTests" time="0.547"/>
-  <testcase name="testGetAllProducts" classname="testcases.ProductTests" time="0.256"/>
-  <testcase name="testGetLimitedProducts" classname="testcases.ProductTests" time="0.194">
+  <testcase name="testDeleteProduct" classname="testcases.ProductTests" time="0.556"/>
+  <testcase name="testGetAllCategories" classname="testcases.ProductTests" time="0.449"/>
+  <testcase name="testGetAllProducts" classname="testcases.ProductTests" time="0.326"/>
+  <testcase name="testGetLimitedProducts" classname="testcases.ProductTests" time="0.309">
     <system-out><![CDATA[[
     {
         "id": 1,
@@ -123,7 +123,7 @@ SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further detail
 ]
 ]]></system-out>
   </testcase>
-  <testcase name="testGetProductsByCategory" classname="testcases.ProductTests" time="0.047">
+  <testcase name="testGetProductsByCategory" classname="testcases.ProductTests" time="0.084">
     <system-out><![CDATA[[
     {
         "id": 9,
@@ -200,7 +200,7 @@ SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further detail
 ]
 ]]></system-out>
   </testcase>
-  <testcase name="testGetSingleProductById" classname="testcases.ProductTests" time="0.615">
+  <testcase name="testGetSingleProductById" classname="testcases.ProductTests" time="0.462">
     <system-out><![CDATA[{
     "id": 1,
     "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
@@ -215,22 +215,22 @@ SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further detail
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testGetSortedProducts" classname="testcases.ProductTests" time="0.497"/>
-  <testcase name="testGetSortedProductsAsc" classname="testcases.ProductTests" time="0.191"/>
-  <testcase name="testUpdateProduct" classname="testcases.ProductTests" time="0.442">
+  <testcase name="testGetSortedProducts" classname="testcases.ProductTests" time="0.444"/>
+  <testcase name="testGetSortedProductsAsc" classname="testcases.ProductTests" time="0.327"/>
+  <testcase name="testUpdateProduct" classname="testcases.ProductTests" time="0.591">
     <system-out><![CDATA[{
     "id": 1,
-    "title": "Intelligent Iron Chair",
-    "price": 4.88,
-    "description": "Quos maiores aut deserunt.",
+    "title": "Ergonomic Paper Hat",
+    "price": 70.89,
+    "description": "Rerum et quod iste.",
     "image": "https://i.pravatar.cc/100",
     "category": "furniture"
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testCreateUser" classname="testcases.UserTests" time="3.184"/>
-  <testcase name="testDeleteUser" classname="testcases.UserTests" time="0.107"/>
-  <testcase name="testGetAllUsers" classname="testcases.UserTests" time="0.406">
+  <testcase name="testCreateUser" classname="testcases.UserTests" time="6.408"/>
+  <testcase name="testDeleteUser" classname="testcases.UserTests" time="0.074"/>
+  <testcase name="testGetAllUsers" classname="testcases.UserTests" time="0.228">
     <system-out><![CDATA[[
     {
         "address": {
@@ -455,7 +455,7 @@ SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further detail
 ]
 ]]></system-out>
   </testcase>
-  <testcase name="testGetUserById" classname="testcases.UserTests" time="0.475">
+  <testcase name="testGetUserById" classname="testcases.UserTests" time="0.275">
     <system-out><![CDATA[{
     "address": {
         "geolocation": {
@@ -480,9 +480,9 @@ SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further detail
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testGetUsersSorted" classname="testcases.UserTests" time="0.584"/>
-  <testcase name="testGetUsersSortedAsc" classname="testcases.UserTests" time="0.244"/>
-  <testcase name="testGetUsersWithLimit" classname="testcases.UserTests" time="0.296">
+  <testcase name="testGetUsersSorted" classname="testcases.UserTests" time="0.386"/>
+  <testcase name="testGetUsersSortedAsc" classname="testcases.UserTests" time="0.042"/>
+  <testcase name="testGetUsersWithLimit" classname="testcases.UserTests" time="0.225">
     <system-out><![CDATA[[
     {
         "address": {
@@ -553,46 +553,46 @@ SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further detail
 ]
 ]]></system-out>
   </testcase>
-  <testcase name="testUpdateUser" classname="testcases.UserTests" time="0.318">
+  <testcase name="testUpdateUser" classname="testcases.UserTests" time="0.187">
     <system-out><![CDATA[{
-    "email": "donny.fadel@yahoo.com",
-    "username": "royce.gibson",
-    "password": "vgd7nswn3y3",
+    "email": "ronnie.wintheiser@gmail.com",
+    "username": "deshawn.bartell",
+    "password": "2dyb8tg7dea2293",
     "name": {
-        "firstname": "Siobhan",
-        "lastname": "Abernathy"
+        "firstname": "Ted",
+        "lastname": "Hermann"
     },
     "address": {
-        "city": "Nigelberg",
-        "street": "O'Connell Alley",
-        "number": 35,
-        "zipcode": "74776-9214",
+        "city": "West Amberly",
+        "street": "Jeremiah Union",
+        "number": 36,
+        "zipcode": "78765-1958",
         "geolocation": {
-            "lat": "-11.513617",
-            "lng": "-177.57176"
+            "lat": "-21.702655",
+            "lng": "-173.08270"
         }
     },
-    "phone": "441-378-1758"
+    "phone": "(123) 912-9118"
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testCreateCart" classname="testcases.CartTests" time="0.566">
+  <testcase name="testCreateCart" classname="testcases.CartTests" time="0.646">
     <system-out><![CDATA[{
     "id": 11,
     "userId": 1,
-    "date": "2026-11-11",
+    "date": "2026-11-12",
     "products": [
         {
-            "productId": 91,
-            "quantity": 8
+            "productId": 27,
+            "quantity": 2
         }
     ]
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testDeleteCart" classname="testcases.CartTests" time="0.596"/>
-  <testcase name="testGetAllCarts" classname="testcases.CartTests" time="0.584"/>
-  <testcase name="testGetCartById" classname="testcases.CartTests" time="0.385">
+  <testcase name="testDeleteCart" classname="testcases.CartTests" time="0.568"/>
+  <testcase name="testGetAllCarts" classname="testcases.CartTests" time="0.613"/>
+  <testcase name="testGetCartById" classname="testcases.CartTests" time="0.458">
     <system-out><![CDATA[{
     "id": 1,
     "userId": 1,
@@ -615,25 +615,25 @@ SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further detail
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testGetCartsByDateRange" classname="testcases.CartTests" time="0.215"/>
-  <testcase name="testGetCartsSorted" classname="testcases.CartTests" time="0.372"/>
-  <testcase name="testGetCartsSortedAsc" classname="testcases.CartTests" time="0.794"/>
-  <testcase name="testGetCartsWithLimit" classname="testcases.CartTests" time="0.66"/>
-  <testcase name="testGetUserCart" classname="testcases.CartTests" time="0.706"/>
-  <testcase name="testUpdateCart" classname="testcases.CartTests" time="0.578"/>
-  <testcase name="testInvalidUserLogin" classname="testcases.LoginTests" time="0.044">
+  <testcase name="testGetCartsByDateRange" classname="testcases.CartTests" time="0.24"/>
+  <testcase name="testGetCartsSorted" classname="testcases.CartTests" time="0.52"/>
+  <testcase name="testGetCartsSortedAsc" classname="testcases.CartTests" time="0.584"/>
+  <testcase name="testGetCartsWithLimit" classname="testcases.CartTests" time="0.806"/>
+  <testcase name="testGetUserCart" classname="testcases.CartTests" time="0.6"/>
+  <testcase name="testUpdateCart" classname="testcases.CartTests" time="0.605"/>
+  <testcase name="testInvalidUserLogin" classname="testcases.LoginTests" time="0.033">
     <system-out><![CDATA[<html>
   <body>username or password is incorrect</body>
 </html>
 ]]></system-out>
   </testcase>
-  <testcase name="testValidUserLogin" classname="testcases.LoginTests" time="0.221">
+  <testcase name="testValidUserLogin" classname="testcases.LoginTests" time="0.08">
     <system-out><![CDATA[{
-    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjIsInVzZXIiOiJtb3JfMjMxNCIsImlhdCI6MTc5NDQyMTQ1MH0.D6DVRcC54s1Fc2SmJaseooo2PeIm3jH2EdIAIQIu93k"
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjIsInVzZXIiOiJtb3JfMjMxNCIsImlhdCI6MTc5NDQ5MTQ4NH0.cI54IYkcQivIa-WL7ELgAIA4vSBcPo7fVWoZ8Ye5JtA"
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testCartSchema" classname="testcases.SchemaTests" time="0.552"/>
-  <testcase name="testProductSchema" classname="testcases.SchemaTests" time="0.336"/>
-  <testcase name="testUserSchema" classname="testcases.SchemaTests" time="0.794"/>
+  <testcase name="testCartSchema" classname="testcases.SchemaTests" time="0.359"/>
+  <testcase name="testProductSchema" classname="testcases.SchemaTests" time="0.233"/>
+  <testcase name="testUserSchema" classname="testcases.SchemaTests" time="0.046"/>
 </testsuite>
